@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>4.1 Creating axes - Melbourne City 2024 Weather | D3.js in Action</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/visualization.css">
+</head>
+
+<body>
+	<div class="container">
+
+		<h1>Distance Traveled by Australians (1974-2024)</h1>
+		<div class="row">
+			<div class="col col-9">
+				<p>Percent of journeys taken by car, air, other (ferry), buses and rail. </h2>
+				<div class="responsive-svg-container-small">
+					<div id="pie-chart"></div>
+				</div>
+			</div>
+			<div class="col col-3">
+		
+				<p>Distance traveled by car, air, other (ferry), buses and rail. </h2>
+				<div class="responsive-svg-container">
+					<div id="bar-chart"></div>
+				</div>
+			</div>
+			<div class="col col-12">
+				<h2>Distance Traveled by Australians, in planes, trains and automobiles! (1974-2024)</h2>
+				<div class="responsive-svg-container">
+					<div id="multi-line-chart"></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+		<div class="source">Data source: <a
+				href="https://www.bitre.gov.au/publications/2023/australian-infrastructure-and-transport-statistics-yearbook-2023/passengers#dl-data">BITRE Australian Infrastructure and Transport Statistics Yearbook 2023: Passengers</a>
+		</div>
+
+
+	<!-- Load your scripts here -->
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	<script src="js/bar-chart.js"></script>
+	<script src="js/pie-chart.js"></script>
+	<script src="js/multi-line-chart.js"></script>
+</body>
+<footer class="source">
+	Code adapted from Dufour & Meeks (2024) D3.js in Action. Manning Publications.
+</footer>
+</html>
